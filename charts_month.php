@@ -74,19 +74,23 @@
 
     <!-- Sidebar -->
     <ul class="sidebar navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="index.html">
+      <li class="nav-item">
+
+         <a class="nav-link" href="index.html">
           <i class="fas fa-fw fa-tachometer-alt"></i>
           <span>일간 데이터</span>
         </a>
       </li>
       <li class="nav-item">
+ 
         <a class="nav-link" href="charts_week.html">
           <i class="fas fa-fw fa-chart-area"></i>
           <span>주간 데이터</span></a>
       </li>
      
       <li class="nav-item">
+        <li class="nav-item active">
+
         <a class="nav-link" href="charts_month.html">
           <i class="fas fa-fw fa-chart-area"></i>
           <span>월간 데이터</span></a>
@@ -129,8 +133,8 @@
 			var chartObj = new FusionCharts({
     type: 'zoomline',
     renderAt: 'chart-container',
-    width: '680',
-    height: '390',
+    width: '1400',
+    height: '500',
     dataFormat: 'json',
     dataSource: {
         "chart": {
