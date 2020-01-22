@@ -26,7 +26,7 @@
 
   <nav class="navbar navbar-expand navbar-dark bg-dark static-top">
 
-    <a class="navbar-brand mr-1" href="index.html">층간소음 측정 데이터</a>
+    <a class="navbar-brand mr-1" href="index.php">층간소음 측정 데이터</a>
 
     
     <!-- Navbar -->
@@ -76,14 +76,14 @@
     <ul class="sidebar navbar-nav">
       <li class="nav-item">
 
-         <a class="nav-link" href="index.html">
+         <a class="nav-link" href="index.php">
           <i class="fas fa-fw fa-tachometer-alt"></i>
           <span>일간 데이터</span>
         </a>
       </li>
       <li class="nav-item">
  
-        <a class="nav-link" href="charts_week.html">
+        <a class="nav-link" href="charts_week.php">
           <i class="fas fa-fw fa-chart-area"></i>
           <span>주간 데이터</span></a>
       </li>
@@ -91,7 +91,7 @@
       <li class="nav-item">
         <li class="nav-item active">
 
-        <a class="nav-link" href="charts_month.html">
+        <a class="nav-link" href="charts_month.php">
           <i class="fas fa-fw fa-chart-area"></i>
           <span>월간 데이터</span></a>
       </li>
